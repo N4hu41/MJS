@@ -38,20 +38,6 @@ header nav ul li a{
 .btnNavPosicon{
     margin-left: 250px;
 }
-.btnNav{
-    color: #b3a13c;
-    border-radius: 4px;
-    border: 2px solid #323232;
-    background-color: #323232;
-    margin-top: 10px;
-    margin-left: 60px;
-    font-size: 40px;
-    font-weight: 400;
-}
-.btnNav a{
-    text-decoration: none;
-    color:#b3a13c;
-}
 .btnBarra{
     background-color: #9f8e2e ;
     height: 80px;
@@ -87,11 +73,17 @@ header nav ul li a{
     width: 95%;
     margin-top: 15px;
 }
+.articulo h4{
+    margin-top: 20px;
+}
 .parrafo{
     border: 4px solid #b3a13c ;
     border-radius: 3px;
     background-color:rgba(24, 23, 21, 0.6);
     padding: 20px;
+}
+.parrafo span{
+    color: #D82667;
 }
 
 /*Footer*/
@@ -110,5 +102,53 @@ header nav ul li a{
     color: white;
     margin-left: 10px;
     display: inline-block;
+}
+.ejercicios{
+    border: 2px solid #9f8e2e;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.ejercicios div{
+    border: 2px solid #9f8e2e;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btnEjercicios{
+    color: #b3a13c;
+    border-radius: 4px;
+    border: 2px solid #323232;
+    background-color: #323232;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 400;
+}
+/*.btnNav{
+    border-radius: 4px;
+    background-color: #b3a13c;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnNav a{
+    text-decoration: none;
+    color:#323232;
+}*/
+.link{
+    border: 1px solid #D82667;
+    border-radius: 5px;
+    background-color:rgba(80, 49, 55, 0.5);
+}
+.link:hover{
+    background-color: #493b55;
+}
+
+.link a{
+    text-decoration: none;
+    color: #D82667;
+    font-size: 20px;
+    font-weight: 500;
 }
 
