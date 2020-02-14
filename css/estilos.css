@@ -1,0 +1,114 @@
+header{
+    background-color: #323232 ;
+}
+
+header nav{
+    float: right;
+    background-color:  #323232;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+header nav ul li a{
+    text-decoration:none;
+    color: white;
+    margin-left: 20px;    
+}
+.nav li a:hover{
+    color: #9f8e2e;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.h1{
+    color: aliceblue;
+    display: inline-block;
+    font-size: 30px;   
+}
+.navText{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #323232;
+    color: white;
+}
+.btnNavPosicon{
+    margin-left: 250px;
+}
+.btnNav{
+    color: #b3a13c;
+    border-radius: 4px;
+    border: 2px solid #323232;
+    background-color: #323232;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.btnNav a{
+    text-decoration: none;
+    color:#b3a13c;
+}
+.btnBarra{
+    background-color: #9f8e2e ;
+    height: 80px;
+}
+.contenido{
+    margin-left: 0px;
+}
+.contenido nav{
+    background-color: #b3a13c;
+
+}
+.contenido nav div a{
+    color: #9f8e2e;
+    background-color: #323232;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.fondo{
+    background-image: url(../img/fondo.png);
+    background-size: 95%;
+    height: 100%;
+}
+
+.articulo{
+    border: 4px solid #b3a13c ;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    width: 95%;
+    margin-top: 15px;
+}
+.parrafo{
+    border: 4px solid #b3a13c ;
+    border-radius: 3px;
+    background-color:rgba(24, 23, 21, 0.6);
+    padding: 20px;
+}
+
+/*Footer*/
+.footer{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.footer img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+}
+
